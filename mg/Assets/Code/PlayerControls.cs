@@ -33,9 +33,9 @@ public class PlayerControls : MonoBehaviour
     {
         rb.velocity = new Vector2(transform.localScale.x * speed, rb.velocity.y);
         //if not grounded and not jumping, add down force
-        if (grounded) {
-            //if (Input.touchCount > 0) {
-            if (Input.GetButtonDown("Jump")) {
+        if (grounded)
+        {
+            if (Input.GetButtonDown("Jump") || Input.touchCount > 0) {
                 rb.AddForce(new Vector2(0, jumpForce));
                 grounded = false;
             }
