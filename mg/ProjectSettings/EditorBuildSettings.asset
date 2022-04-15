@@ -21,4 +21,5 @@ EditorBuildSettings:
     path: Assets/Scenes/ExitMenu.unity
     guid: 430b75850f8664677af47ac92dc87a3e
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: d62cd84f4cf224b7e894deedbd80ebd5, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 177f1412e38d4ac4bbf6d407506e9a4e, type: 2}
