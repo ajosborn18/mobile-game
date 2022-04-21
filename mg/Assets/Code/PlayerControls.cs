@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class PlayerControls : MonoBehaviour
 {
@@ -12,9 +13,10 @@ public class PlayerControls : MonoBehaviour
     public LayerMask ground;
     public Transform feet; 
     public Vector2 startpos;
+    public TextMeshProUGUI score;
     bool grounded = false; 
     float groundCheckDist = 0.3f;
-    //bool isAlive = true;
+    bool isAlive = true;
 
     void Start()
     {
@@ -36,18 +38,44 @@ public class PlayerControls : MonoBehaviour
         if (grounded)
         {
             if (Input.GetButtonDown("Jump") || Input.touchCount > 0) {
-                rb.AddForce(new Vector2(0, jumpForce));
+                rb.AddForce(new Vector2(0, PublicVars.jumpForce));
                 grounded = false;
             }
         }
         if (transform.position.y < -10) {
+            /*
             transform.position = startpos;
+            PublicVars.score = 0;
+            score.text = "0"; */
+            isAlive = false;
         }
+        
+        if (!isAlive) {
+            Respawn();
+            isAlive = true;
+        } 
         if(rb.velocity.y == 0)
         {
             grounded = true;
         }
     }
 
+    void Respawn() {
+        transform.position = startpos;
+            PublicVars.score = 0;
+            score.text = "0";
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {   
+        print("colliding");
+        if (other.CompareTag("Collectible")) {
+            PublicVars.Collect();
+            score.text = (PublicVars.score).ToString();
+            Destroy(other.gameObject);
+        }
+        else if (other.CompareTag("Obstacle")) {
+            isAlive = false;
+        }
+    }
     
 }
