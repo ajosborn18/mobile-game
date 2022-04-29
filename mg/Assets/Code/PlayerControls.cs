@@ -11,17 +11,27 @@ public class PlayerControls : MonoBehaviour
     public int jumpForce = 1000;
     public int fallSpeed = -5;
     public LayerMask ground;
+    public string levelToLoad;
     public Transform feet; 
     public Vector2 startpos;
     public TextMeshProUGUI score;
+    public float bouncyForce = 500;
     bool grounded = false; 
     float groundCheckDist = 0.3f;
     bool isAlive = true;
+    
+    //check if the player is stuck in either x or y direction
+    Vector3 lastCheckPos;
+    float lastCheckTime = 0;
+    float checkTimeInterval = 3.0f;
+    float xDist = 0.5f;
+    float yDist = 0.5f;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         startpos = transform.position;
+        lastCheckPos = transform.position;
         //rb.velocity = new Vector2(transform.localScale.x * speed, 0);
     }
 
@@ -34,11 +44,25 @@ public class PlayerControls : MonoBehaviour
     void Update()
     {
         rb.velocity = new Vector2(transform.localScale.x * speed, rb.velocity.y);
+
+        if ((Time.time - lastCheckTime) > checkTimeInterval) {
+            if (((transform.position.x - lastCheckPos.x) < xDist)
+            || ((transform.position.y - lastCheckPos.y) < yDist)) {
+                print("stagnant");
+                float x = transform.position.x;
+                float y = transform.position.y;
+                transform.position = new Vector2(x, (y-5));
+                rb.AddForce(new Vector2(0, -200)); 
+            }
+            lastCheckPos = transform.position;
+            lastCheckTime = Time.time;
+        }
+
         //if not grounded and not jumping, add down force
         if (grounded)
         {
             if (Input.GetButtonDown("Jump") || Input.touchCount > 0) {
-                rb.AddForce(new Vector2(0, PublicVars.jumpForce));
+                rb.AddForce(new Vector2(0, jumpForce));
                 grounded = false;
             }
         }
@@ -51,7 +75,9 @@ public class PlayerControls : MonoBehaviour
         }
         
         if (!isAlive) {
-            Respawn();
+            //Respawn();
+            SceneManager.LoadScene(levelToLoad);
+            //rb.velocity = new Vector2(transform.localScale.x * speed, 0);
             isAlive = true;
         } 
         if(rb.velocity.y == 0)
@@ -63,6 +89,7 @@ public class PlayerControls : MonoBehaviour
     void Respawn() {
         transform.position = startpos;
             PublicVars.score = 0;
+            //rb.velocity = new Vector2(transform.localScale.x * speed, 0);
             score.text = "0";
     }
 
@@ -72,6 +99,14 @@ public class PlayerControls : MonoBehaviour
             PublicVars.Collect();
             score.text = (PublicVars.score).ToString();
             Destroy(other.gameObject);
+        }
+        else if (other.CompareTag("Collectible2")) {
+            PublicVars.Collect2();
+            score.text = (PublicVars.score).ToString();
+            Destroy(other.gameObject);
+        }
+        else if (other.CompareTag("bouncy")) {
+            rb.AddForce(new Vector2(0, bouncyForce));
         }
         else if (other.CompareTag("Obstacle")) {
             isAlive = false;

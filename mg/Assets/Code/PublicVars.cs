@@ -10,4 +10,7 @@ public class PublicVars : MonoBehaviour
     public static void Collect() {
         score += 1;
     }
+    public static void Collect2() {
+        score += 2;
+    }
 }
