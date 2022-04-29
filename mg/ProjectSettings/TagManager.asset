@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Collectible
   - Obstacle
+  - Collectible2
+  - bouncy
   layers:
   - Default
   - TransparentFX
