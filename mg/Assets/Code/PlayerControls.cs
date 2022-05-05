@@ -15,7 +15,7 @@ public class PlayerControls : MonoBehaviour
     public Transform feet; 
     public Vector2 startpos;
     public TextMeshProUGUI score;
-    public float bouncyForce = 500;
+    public float bouncyForce = 550;
     bool grounded = false; 
     float groundCheckDist = 0.3f;
     bool isAlive = true;
