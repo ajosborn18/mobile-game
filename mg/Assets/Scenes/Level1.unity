@@ -883,9 +883,9 @@ GameObject:
   - component: {fileID: 342392891}
   - component: {fileID: 342392890}
   - component: {fileID: 342392889}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_04_color-2 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1003,7 +1003,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342392888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 280.8, y: 18.3, z: 0}
+  m_LocalPosition: {x: 280, y: 17.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1193,9 +1193,9 @@ GameObject:
   - component: {fileID: 570698771}
   - component: {fileID: 570698770}
   - component: {fileID: 570698769}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_04_color-2 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1389,9 +1389,9 @@ GameObject:
   - component: {fileID: 680172175}
   - component: {fileID: 680172174}
   - component: {fileID: 680172173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 9-slicing_Ground_09_color-2_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1651,9 +1651,9 @@ GameObject:
   - component: {fileID: 728581924}
   - component: {fileID: 728581923}
   - component: {fileID: 728581922}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_04_color-2 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11679,7 +11679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1911400158803318082, guid: a09b5a0c89c02024ca06477651550b04, type: 3}
       propertyPath: ground.m_Bits
-      value: 1
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1911400158803318083, guid: a09b5a0c89c02024ca06477651550b04, type: 3}
       propertyPath: m_Size.x
@@ -11747,9 +11747,9 @@ GameObject:
   - component: {fileID: 1003476230}
   - component: {fileID: 1003476229}
   - component: {fileID: 1003476228}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_04_color-2 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11943,9 +11943,9 @@ GameObject:
   - component: {fileID: 1090081796}
   - component: {fileID: 1090081795}
   - component: {fileID: 1090081794}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 9-slicing_Ground_09_color-2_0 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12076,9 +12076,9 @@ GameObject:
   - component: {fileID: 1190264894}
   - component: {fileID: 1190264893}
   - component: {fileID: 1190264892}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 9-slicing_Ground_09_color-2_0 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12276,9 +12276,9 @@ GameObject:
   - component: {fileID: 1303246508}
   - component: {fileID: 1303246507}
   - component: {fileID: 1303246506}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_04_color-2 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12415,9 +12415,9 @@ GameObject:
   - component: {fileID: 1416090413}
   - component: {fileID: 1416090412}
   - component: {fileID: 1416090411}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_04_color-2 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12611,9 +12611,9 @@ GameObject:
   - component: {fileID: 1528395117}
   - component: {fileID: 1528395116}
   - component: {fileID: 1528395115}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 9-slicing_Ground_09_color-2_0 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12938,9 +12938,9 @@ GameObject:
   - component: {fileID: 1651570155}
   - component: {fileID: 1651570154}
   - component: {fileID: 1651570153}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 9-slicing_Ground_09_color-1_0 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13071,9 +13071,9 @@ GameObject:
   - component: {fileID: 1668165357}
   - component: {fileID: 1668165356}
   - component: {fileID: 1668165355}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 9-slicing_Ground_09_color-2_0 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13204,9 +13204,9 @@ GameObject:
   - component: {fileID: 1678926691}
   - component: {fileID: 1678926690}
   - component: {fileID: 1678926689}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_04_color-2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13343,9 +13343,9 @@ GameObject:
   - component: {fileID: 1684009609}
   - component: {fileID: 1684009608}
   - component: {fileID: 1684009607}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 9-slicing_Ground_09_color-2_0 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13476,9 +13476,9 @@ GameObject:
   - component: {fileID: 1724778580}
   - component: {fileID: 1724778579}
   - component: {fileID: 1724778578}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_04_color-2 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13676,9 +13676,9 @@ GameObject:
   - component: {fileID: 1910394278}
   - component: {fileID: 1910394277}
   - component: {fileID: 1910394276}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 9-slicing_Ground_07_color-1_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13866,9 +13866,9 @@ GameObject:
   - component: {fileID: 1999307432}
   - component: {fileID: 1999307431}
   - component: {fileID: 1999307430}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 9-slicing_Ground_09_color-2_0 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13999,9 +13999,9 @@ GameObject:
   - component: {fileID: 2009904772}
   - component: {fileID: 2009904771}
   - component: {fileID: 2009904770}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 9-slicing_Ground_09_color-1_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
