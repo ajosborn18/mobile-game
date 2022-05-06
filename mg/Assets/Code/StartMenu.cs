@@ -10,6 +10,11 @@ public class StartMenu : MonoBehaviour
     {
     	SceneManager.LoadScene("Level1");
     }
+    
+    public void LoadInstructions()
+    {
+    	SceneManager.LoadScene("InstructionsMenu");
+    }
 
     
     public void ExitGame()
