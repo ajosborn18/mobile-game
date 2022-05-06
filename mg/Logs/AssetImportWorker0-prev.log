@@ -5,26 +5,32 @@ Batch mode:              YES
 macOS version:           Version 12.3.1 (Build 21E258)
 Darwin version:          21.4.0
 Architecture:            x86_64
-Running under Rosetta:   YES
-Available memory:        16384 MB
+Running under Rosetta:   NO
+Available memory:        8192 MB
 Using pre-set license
 Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.2.11f1/2021.3.0f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/2021.3.0f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/moniqueabu/Desktop/Senior Semester 2 /Intro to Game Development /mobile-game/mg
+/Users/emmawilkins/Desktop/final_mg/mobile-game/mg
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 53245
 Successfully changed project path to: /Users/moniqueabu/Desktop/Senior Semester 2 /Intro to Game Development /mobile-game/mg
 /Users/moniqueabu/Desktop/Senior Semester 2 /Intro to Game Development /mobile-game/mg
+=======
+57072
+Successfully changed project path to: /Users/emmawilkins/Desktop/final_mg/mobile-game/mg
+/Users/emmawilkins/Desktop/final_mg/mobile-game/mg
+>>>>>>> 19744d4c5c5738307be8cd6c346456c550d037be
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,18 +60,23 @@ Successfully changed project path to: /Users/moniqueabu/Desktop/Senior Semester 
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 134.49 ms, found 3 plugins.
+=======
+Refreshing native plugins compatible for Editor in 499.36 ms, found 3 plugins.
+>>>>>>> 19744d4c5c5738307be8cd6c346456c550d037be
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.0f1 (6eacc8284459)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.11f1/2021.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/moniqueabu/Desktop/Senior Semester 2 /Intro to Game Development /mobile-game/mg/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/emmawilkins/Desktop/final_mg/mobile-game/mg/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M1 (high power)
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
 Metal devices available: 1
-0: Apple M1 (high power)
-Using device Apple M1 (high power)
-Initializing Metal device caps: Apple M1
+0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.11f1/2021.3.0f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.11f1/2021.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.11f1/2021.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
@@ -78,11 +89,23 @@ Register platform support module: /Applications/Unity/Hub/Editor/2021.2.11f1/202
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.11f1/2021.3.0f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.002630 seconds.
 Native extension for WindowsStandalone target not found
+=======
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56531
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.0f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.005447 seconds.
+>>>>>>> 19744d4c5c5738307be8cd6c346456c550d037be
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
+<<<<<<< HEAD
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 126.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -91,11 +114,21 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1526ms)
 		BeginReloadAssembly (143ms)
+=======
+Refreshing native plugins compatible for Editor in 305.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.522 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2524ms)
+		BeginReloadAssembly (382ms)
+>>>>>>> 19744d4c5c5738307be8cd6c346456c550d037be
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
+<<<<<<< HEAD
 		EndReloadAssembly (1155ms)
 			LoadAssemblies (141ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -110,20 +143,40 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (3ms)
 				ProcessInitializeOnLoadAttributes (475ms)
 				ProcessInitializeOnLoadMethodAttributes (153ms)
+=======
+		EndReloadAssembly (1764ms)
+			LoadAssemblies (383ms)
+			RebuildTransferFunctionScriptingTraits (3ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (1173ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (246ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (306ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (430ms)
+				ProcessInitializeOnLoadMethodAttributes (184ms)
+>>>>>>> 19744d4c5c5738307be8cd6c346456c550d037be
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.002756 seconds.
+=======
+Registered in 0.024676 seconds.
+>>>>>>> 19744d4c5c5738307be8cd6c346456c550d037be
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/moniqueabu/Desktop/Senior Semester 2 /Intro to Game Development /mobile-game/mg/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/emmawilkins/Desktop/final_mg/mobile-game/mg/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image /Users/moniqueabu/Desktop/Senior Semester 2 /Intro to Game Development /mobile-game/mg/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
+Symbol file LoadedFromMemory doesn't match image /Users/emmawilkins/Desktop/final_mg/mobile-game/mg/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
+<<<<<<< HEAD
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 124.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -154,11 +207,43 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (118ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
+=======
+Refreshing native plugins compatible for Editor in 263.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+- Completed reload, in  3.693 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3696ms)
+		BeginReloadAssembly (295ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (3001ms)
+			LoadAssemblies (307ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (835ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (210ms)
+			SetupLoadedEditorAssemblies (1499ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (264ms)
+				BeforeProcessingInitializeOnLoad (256ms)
+				ProcessInitializeOnLoadAttributes (815ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+>>>>>>> 19744d4c5c5738307be8cd6c346456c550d037be
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+<<<<<<< HEAD
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.11f1/2021.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
@@ -167,6 +252,16 @@ Unloading 4341 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 64 unused Assets / (117.0 KB). Loaded Objects now: 4789.
 Memory consumption went from 277.9 MB to 277.8 MB.
 Total: 3.029250 ms (FindLiveObjects: 0.233250 ms CreateObjectMapping: 0.114250 ms MarkObjects: 2.583833 ms  DeleteObjects: 0.097041 ms)
+=======
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.17 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4341 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (116.8 KB). Loaded Objects now: 4781.
+Memory consumption went from 273.3 MB to 273.2 MB.
+Total: 8.649184 ms (FindLiveObjects: 0.554506 ms CreateObjectMapping: 0.502769 ms MarkObjects: 7.377058 ms  DeleteObjects: 0.213241 ms)
+>>>>>>> 19744d4c5c5738307be8cd6c346456c550d037be
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -180,6 +275,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 49149.818849 seconds.
   path: Assets/Scenes/wp5440815.PNG
   artifactKey: Guid(c01d428fbf08340eebd5029d92e5608e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -550,3 +646,93 @@ Received Import Request.
   path: Assets/Deer Assets/Pixel Art Animated Deer/Sprites/Attack/deer_attack_0001.png
   artifactKey: Guid(a041ebd08ec494b669ead3fe9c3d7539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Deer Assets/Pixel Art Animated Deer/Sprites/Attack/deer_attack_0001.png using Guid(a041ebd08ec494b669ead3fe9c3d7539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf469f6befbbc8b4baf90b1e32bb8b65') in 0.019462 seconds 
+=======
+  Time since last request: 259856.888251 seconds.
+  path: Assets/Scenes/wp5440815.PNG
+  artifactKey: Guid(c01d428fbf08340eebd5029d92e5608e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wp5440815.PNG using Guid(c01d428fbf08340eebd5029d92e5608e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7c1ba8ef1d0f9a1f8b4c9440afae6a') in 3.021121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/types-of-grass-edmonton-809120_905x600.jpg
+  artifactKey: Guid(a44e263f12c1c4cdc8fc23919320bcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/types-of-grass-edmonton-809120_905x600.jpg using Guid(a44e263f12c1c4cdc8fc23919320bcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d30fa1b1060c9f0183fbba48a0be20d') in 2.054913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000886 seconds.
+  path: Assets/Scenes/Royal_Acidbath.ttf
+  artifactKey: Guid(096954dabbd044f0ca0c48649306752b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Royal_Acidbath.ttf using Guid(096954dabbd044f0ca0c48649306752b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641b7bb9c9ffc7758439782e6d430ba2') in 3.955402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Scenes/Royal_Acidbath SDF.asset
+  artifactKey: Guid(afae8c826d10b4795a2a567a4ddfff36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Royal_Acidbath SDF.asset using Guid(afae8c826d10b4795a2a567a4ddfff36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2da77188324823832b39ce9a12e6e2') in 0.604773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5a96da0d1335ae901594340dde250e') in 0.005693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6dfd85869103c8947a115d1e79dd5d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6dfd85869103c8947a115d1e79dd5d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7db9df9c31f73082f0c3a373229737c') in 0.001128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(9483f9cea7a8d4a64839bc056e7111d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(9483f9cea7a8d4a64839bc056e7111d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f402185a938a4d8c58ffca564788f05') in 1.098236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Scenes/JI_Chunky_Caps.ttf
+  artifactKey: Guid(548676edd12414f3bb5f2e13d83fd387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JI_Chunky_Caps.ttf using Guid(548676edd12414f3bb5f2e13d83fd387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5388a3ae71e3578a78b36f9f2c463430') in 0.028658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Scenes/JI_Chunky_Caps SDF.asset
+  artifactKey: Guid(fc4b2fc807e1d4935b5d2be4d3c90b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JI_Chunky_Caps SDF.asset using Guid(fc4b2fc807e1d4935b5d2be4d3c90b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0972c982c203b1b3333710ea7406410d') in 0.052187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001020 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(af9757e46b546674aa8b94ca305d751d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(af9757e46b546674aa8b94ca305d751d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b7165d36dcee72838c2d0ce037465a') in 0.001126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.050604 seconds.
+  path: Assets/Scenes/Level4.unity
+  artifactKey: Guid(064d5ead37cc046ae995678f884c92f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level4.unity using Guid(064d5ead37cc046ae995678f884c92f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b576f7b3685520f6cf3efe6cf45a09be') in 0.001966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.339356 seconds.
+  path: Assets/Scenes/Emma's Level
+  artifactKey: Guid(4c6c25eb63c2e4f998ef9a6afa42b651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Emma's Level using Guid(4c6c25eb63c2e4f998ef9a6afa42b651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01be8bc1609ca3b3caf2a519f2b813c9') in 0.012646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.693287 seconds.
+  path: Assets/Scenes/Emma's Level/Level4 1.unity
+  artifactKey: Guid(9ea46e31ec6364a63b6f02f8046f08c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Emma's Level/Level4 1.unity using Guid(9ea46e31ec6364a63b6f02f8046f08c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721ce8c519d40624bb45850fb67741d8') in 0.003230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.837209 seconds.
+  path: Assets/Scenes/Level4 1.unity
+  artifactKey: Guid(ba2b4986e5da7400a837f4a55ff95c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level4 1.unity using Guid(ba2b4986e5da7400a837f4a55ff95c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57475b305f6028b5f7010323f3ef687') in 0.004927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.679399 seconds.
+  path: Assets/Scenes/Level4.unity
+  artifactKey: Guid(ba2b4986e5da7400a837f4a55ff95c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level4.unity using Guid(ba2b4986e5da7400a837f4a55ff95c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c1e308b64187aef63db1bfe46b853d') in 0.001995 seconds 
+>>>>>>> 19744d4c5c5738307be8cd6c346456c550d037be
