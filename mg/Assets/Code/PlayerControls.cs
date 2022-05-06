@@ -45,6 +45,8 @@ public class PlayerControls : MonoBehaviour
     {
         rb.velocity = new Vector2(transform.localScale.x * speed, rb.velocity.y);
 
+
+        /*
         if ((Time.time - lastCheckTime) > checkTimeInterval) {
             if (((transform.position.x - lastCheckPos.x) < xDist)
             || ((transform.position.y - lastCheckPos.y) < yDist)) {
@@ -56,7 +58,7 @@ public class PlayerControls : MonoBehaviour
             }
             lastCheckPos = transform.position;
             lastCheckTime = Time.time;
-        }
+        } */
 
         //if not grounded and not jumping, add down force
         if (grounded)
