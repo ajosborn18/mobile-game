@@ -19,6 +19,9 @@ public class PlayerControls : MonoBehaviour
     bool grounded = false; 
     float groundCheckDist = 0.3f;
     bool isAlive = true;
+
+    Animator anim;
+
     
     //check if the player is stuck in either x or y direction
     Vector3 lastCheckPos;
@@ -29,6 +32,7 @@ public class PlayerControls : MonoBehaviour
 
     void Start()
     {
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         startpos = transform.position;
         lastCheckPos = transform.position;
@@ -38,6 +42,11 @@ public class PlayerControls : MonoBehaviour
     void FixedUpdate()
     {
         grounded = Physics2D.OverlapCircle(feet.position, groundCheckDist, ground);
+        /*
+        if (!grounded) {
+            print("jumping");
+        } */
+		anim.SetBool("grounded", grounded);
     }
 
     // Update is called once per frame
@@ -63,8 +72,10 @@ public class PlayerControls : MonoBehaviour
         //if not grounded and not jumping, add down force
         if (grounded)
         {
+            //anim.SetBool("jumping", false);
             if (Input.GetButtonDown("Jump") || Input.touchCount > 0) {
                 rb.AddForce(new Vector2(0, jumpForce));
+                //anim.SetBool("jumping", true);
                 grounded = false;
             }
         }
@@ -77,7 +88,7 @@ public class PlayerControls : MonoBehaviour
         }
         
         if (!isAlive) {
-            //Respawn();
+            Respawn();
             SceneManager.LoadScene(levelToLoad);
             //rb.velocity = new Vector2(transform.localScale.x * speed, 0);
             isAlive = true;
@@ -89,7 +100,7 @@ public class PlayerControls : MonoBehaviour
     }
 
     void Respawn() {
-        transform.position = startpos;
+        
             PublicVars.score = 0;
             //rb.velocity = new Vector2(transform.localScale.x * speed, 0);
             score.text = "0";
