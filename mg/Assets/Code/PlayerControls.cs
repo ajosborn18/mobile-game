@@ -21,7 +21,9 @@ public class PlayerControls : MonoBehaviour
     bool isAlive = true;
 
     Animator anim;
-
+    public AudioSource aud;
+    public AudioClip collect;
+    public AudioClip die;
     
     //check if the player is stuck in either x or y direction
     Vector3 lastCheckPos;
@@ -34,6 +36,7 @@ public class PlayerControls : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        aud = GetComponent<AudioSource>();
         startpos = transform.position;
         lastCheckPos = transform.position;
         //rb.velocity = new Vector2(transform.localScale.x * speed, 0);
@@ -109,11 +112,13 @@ public class PlayerControls : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {   
         print("colliding");
         if (other.CompareTag("Collectible")) {
+            aud.PlayOneShot(collect, 0.3f);
             PublicVars.Collect();
             score.text = (PublicVars.score).ToString();
             Destroy(other.gameObject);
         }
         else if (other.CompareTag("Collectible2")) {
+            aud.PlayOneShot(collect, 0.3f);
             PublicVars.Collect2();
             score.text = (PublicVars.score).ToString();
             Destroy(other.gameObject);
@@ -122,6 +127,7 @@ public class PlayerControls : MonoBehaviour
             rb.AddForce(new Vector2(0, bouncyForce));
         }
         else if (other.CompareTag("Obstacle")) {
+            aud.PlayOneShot(die, 0.3f);
             isAlive = false;
         }
     }
