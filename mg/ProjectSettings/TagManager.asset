@@ -9,6 +9,7 @@ TagManager:
   - Obstacle
   - Collectible2
   - bouncy
+  - Poison
   layers:
   - Default
   - TransparentFX

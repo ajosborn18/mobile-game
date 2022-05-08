@@ -10,9 +10,15 @@ public class NextLevel : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if(other.CompareTag("Player") && PublicVars.score > 10)
         {
+            PublicVars.score = 0;
             SceneManager.LoadScene(level_to_load);
+        }
+
+        else
+        {
+            SceneManager.LoadScene("GameOver");
         }
     }
     

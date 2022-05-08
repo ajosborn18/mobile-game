@@ -171,6 +171,14 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7376179366303711196, guid: 6174ae6d34e1a4ca3b81f254dd9ae10b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7376179366303711196, guid: 6174ae6d34e1a4ca3b81f254dd9ae10b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7376179366303711196, guid: 6174ae6d34e1a4ca3b81f254dd9ae10b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -200,7 +208,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7376179366303711196, guid: 6174ae6d34e1a4ca3b81f254dd9ae10b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -177
+      value: -295
       objectReference: {fileID: 0}
     - target: {fileID: 7376179366303711196, guid: 6174ae6d34e1a4ca3b81f254dd9ae10b, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -271,7 +279,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -81.91, y: -18}
+  m_AnchoredPosition: {x: -81.91, y: 204}
   m_SizeDelta: {x: 163.82, y: 177.7182}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &866587144
@@ -295,8 +303,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: The goal is to collect all the crystals but beware of the spiky vegetation!
-    Don't let the mushrooms fool you, although some are there to help you, others
-    are there to poison you!
+    Don't let the mushrooms fool you, they're to help you!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: afae8c826d10b4795a2a567a4ddfff36, type: 2}
   m_sharedMaterial: {fileID: -3571846654075314275, guid: afae8c826d10b4795a2a567a4ddfff36, type: 2}
@@ -323,8 +330,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23
-  m_fontSizeBase: 23
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -359,7 +366,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -178.51517, y: 0, z: -332.35757, w: 0}
+  m_margin: {x: -178.51517, y: 0, z: -332.35757, w: -67.930115}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -413,7 +420,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -70, y: -42}
+  m_AnchoredPosition: {x: -57, y: 71}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1037586787
@@ -463,8 +470,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -499,7 +506,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -195.85333, w: 0}
+  m_margin: {x: 299.33594, y: 185.90326, z: 144.4444, w: 746.76416}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -548,7 +555,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -3}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1063322102
@@ -911,6 +918,14 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4201648502611582914, guid: 9b6a2353ecca7458eace4c95461c2fbc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4201648502611582914, guid: 9b6a2353ecca7458eace4c95461c2fbc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4201648502611582914, guid: 9b6a2353ecca7458eace4c95461c2fbc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -940,7 +955,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4201648502611582914, guid: 9b6a2353ecca7458eace4c95461c2fbc, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 171
+      value: 281
       objectReference: {fileID: 0}
     - target: {fileID: 4201648502611582914, guid: 9b6a2353ecca7458eace4c95461c2fbc, type: 3}
       propertyPath: m_AnchoredPosition.y
